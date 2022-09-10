@@ -1,6 +1,4 @@
-body{
 
-}
 /* цвет основного текста серый #757575 */
 /* вторичный цвет текста черный #212121*/
 /* основной белый фон #FFFFFF */
@@ -11,3 +9,58 @@ body{
 /* основной фон портфолио #F5F5F5 */
 /* кнопки портфолио фон #F5F4FA */
 /* список фон портфолио #EEEEEE */
+:root{
+    --accent-color: #2196F3;
+}
+/*  */
+body {
+}
+.list {
+list-style: none
+}
+/* logo */
+
+.logo-part{
+    color: var(--accent-color) ;
+}
+.header-logo{
+    color: #000000;
+}
+.footer-logo{
+    color: #FFFFFF;
+}
+/* site nav */
+
+.site-nav .nav-link{
+    color: #212121
+}
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus{
+   color: var(--accent-color); 
+}
+
+/* header links */
+.header-mail {
+    color:#757575
+}
+.header-tel{
+    color: #757575;
+}
+.header-mail:hover,:focus{
+color: var(--accent-color)
+}
+  .header-tel:hover,:focus{
+color: var(--accent-color);
+  }
+
+  /* footer */
+
+  .map{
+    color: #FFFFFF
+  }
+ .footer-mail{
+  color: rgba(255, 255, 255, 0.6)
+ }
+ .footer-tel{
+    color: rgba(255, 255, 255, 0.6);
+ }
