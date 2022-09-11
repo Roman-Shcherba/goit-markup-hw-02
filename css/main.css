@@ -1,0 +1,24 @@
+
+
+.site-nav .current{
+color: var(--accent-color)
+}
+    
+    
+/* секция hero */
+.hero-title{
+  color: var(--primary-white-color);  
+}
+.hero-btn{
+    color:var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.hero .hero-btn:hover,
+.hero .hero-btn:focus,
+.hero .hero-btn:active{
+    color: var(--primary-white-color)
+}
+    /* секция */
+
+
+

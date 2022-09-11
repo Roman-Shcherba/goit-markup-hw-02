@@ -1,0 +1,80 @@
+/* цвет основного текста серый #757575 */
+/* вторичный цвет текста черный #212121*/
+/* основной белый фон #FFFFFF */
+/* вторичный фон #2F303A */
+/* третий фон #F5F4FA */
+/* лого черный #000000 */
+/* акцент синий #2196F3 */
+/* основной фон портфолио #F5F5F5 */
+/* кнопки портфолио фон #F5F4FA */
+/* список фон портфолио #EEEEEE */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+body.studio,
+.portfolio .text {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none
+}
+
+/* logo */
+
+.logo-part {
+    color: var(--accent-color);
+}
+.header-logo {
+    color: #000000;
+}
+.footer-logo {
+    color: var(--primary-white-color);
+}
+/* site nav */
+
+.site-nav .nav-link {
+    color: var(--title-text-color)
+}
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus,
+.site-nav .nav-link:active {
+    color: var(--accent-color)
+}
+/* header links */
+
+.header-links .link {
+    color: var(--primary-text-color);
+}
+.header-links .link:hover,
+.header-links .link:focus,
+.header-links .link:active {
+    color: var(--accent-color);
+}
+    /* section */
+
+.section-title{
+    color: var(--title-text-color)
+} 
+  /* footer */
+
+.footer-links .map-link {
+    color: var(--primary-white-color)
+}
+.footer-links .link {
+    color: rgba(255, 255, 255, 0.6)
+}
+.footer-links .map-link:hover,
+.footer-links .map-link:focus,
+.footer-links .map-link:active {
+    color: var(--accent-color);
+}
+.footer-links .link:hover,
+.footer-links .link:focus,
+.footer-links .link:active {
+    color: var(--accent-color);
+}

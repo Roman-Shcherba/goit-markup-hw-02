@@ -1,0 +1,22 @@
+
+
+.site-nav .current {
+    color: var(--accent-color)}
+    
+.btn {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.btn-list .btn:hover,
+.btn-list .btn:focus,
+.btn-list .btn:active {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color)
+}
+
+.cards-list .card-link:hover,
+.cards-list .card-link:focus,
+.cards-list .card-link:active{
+    color: var(--accent-color);
+}
