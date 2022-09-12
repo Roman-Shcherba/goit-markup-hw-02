@@ -6,7 +6,6 @@
   color: var(--primary-white-color);
   background-color: #2f303a;
   letter-spacing: 0.06em;
-  font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   line-height: calc(60 / 40);
@@ -16,19 +15,20 @@
 .hero-btn {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: calc (30 / 16);
   text-align: center;
   letter-spacing: 0.06em;
-  
+
+  .hero-btn {
+    cursor: pointer;
+  }
 }
 .hero-btn:hover,
 .hero-btn:focus,
 .hero-btn:active {
   color: var(--primary-white-color);
-
 } /* секция */
 
 .section-feature-list-title {

@@ -11,11 +11,14 @@ button {
 .section-portfolio-list-btn {
   color: var(--title-text-color);
   background-color: #f5f4fa;
-  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
+}
+
+.section-portfolio-list-btn{
+  cursor: pointer;
 }
 .section-portfolio-list-btn:hover,
 .section-portfolio-list-btn:focus,
