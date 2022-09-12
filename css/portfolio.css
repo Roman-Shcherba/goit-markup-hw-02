@@ -31,6 +31,8 @@ button {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
+
+/* Color не унаследовался от body. Нужно было прописывать вручную. Почему? */
 .section-portfolio-cards-list-item-text {
   color: var(--primary-text-color);
   font-weight: 400;

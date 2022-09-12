@@ -22,12 +22,13 @@
   line-height: calc (30 / 16);
   text-align: center;
   letter-spacing: 0.06em;
+  
 }
 .hero-btn:hover,
 .hero-btn:focus,
 .hero-btn:active {
   color: var(--primary-white-color);
-  
+
 } /* секция */
 
 .section-feature-list-title {
